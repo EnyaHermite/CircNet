@@ -3,7 +3,7 @@ open3d==0.15.2
 trimesh==3.23.3
 scikit-learn==1.0.2
 swig==4.1.1
-
+gdown==4.7.1
 
 
 
