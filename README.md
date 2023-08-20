@@ -39,13 +39,12 @@ conda activate tf
 pip install -r requirements.txt
 cd codes/src
 bash compile.sh
-cd ../..
 ```            
 
 ### 2. Download the data
  Download our voxelized [ABC](https://deep-geometry.github.io/abc-dataset/) subset, the watertight human meshes of [FAUST](https://faust-leaderboard.is.tuebingen.mpg.de/), and the open garment meshes of [MGN](https://virtualhumans.mpi-inf.mpg.de/mgn/). We provide reorganize_MGN.py to re-organize the MGN dataset for convinient data loading.
 ```
-cd data
+cd ../../data
 bash download_extract_shapes.sh
 python reorganize_MGN.py
 ```
